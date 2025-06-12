@@ -121,7 +121,7 @@ def initiate():
             name=data["name"],
             car_make=data["car_make"],
             defaults={
-                "type": data["type"].upper(),  # make sure it's uppercase for choices
+                "type": data["type"].upper(),
                 "year": current_year,
                 "dealer_id": data["dealer_id"],
             },
