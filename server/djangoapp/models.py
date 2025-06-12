@@ -3,12 +3,14 @@ from datetime import datetime
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
 
+
 class CarMake(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
 
     def __str__(self):
         return self.name  # Nice, clean name string
+
 
 class CarModel(models.Model):
     car_make = models.ForeignKey(
@@ -42,6 +44,7 @@ class CarModel(models.Model):
 
     def __str__(self):
         return f"{self.car_make.name} {self.name} ({self.year})"
+
 
 class Review(models.Model):
     name = models.CharField(max_length=100)
