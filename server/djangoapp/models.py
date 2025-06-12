@@ -1,11 +1,6 @@
-# Uncomment the following imports before adding the Model code
-
-# from django.db import models
-# from django.utils.timezone import now
-# from django.core.validators import MaxValueValidator, MinValueValidator
-
-
-# Create your models here.
+from django.db import models
+from django.utils.timezone import now
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 # <HINT> Create a Car Make model `class CarMake(models.Model)`:
 # - Name
