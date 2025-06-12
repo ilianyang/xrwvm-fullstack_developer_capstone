@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us - Best Cars</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+    <style>
+      .contact-container {
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .contact-header h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .contact-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .contact-card {
+        width: 45%;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.125);
+      }
+      .contact-card h4 {
+        margin-bottom: 10px;
+      }
+      iframe {
+        width: 100%;
+        height: 400px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%">Dealerships</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="font-size: larger"
+                href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-container">
+      <div class="contact-header">
+        <h1>Contact Us</h1>
+        <p style="text-align: center">
+          Got questions? We’ve got turbocharged answers. Reach out to us!
+        </p>
+      </div>
+
+      <div class="contact-info">
+        <div class="contact-card">
+          <h4>📍 Address</h4>
+          <p>1234 Auto Lane, Motor City, CA 90210</p>
+        </div>
+
+        <div class="contact-card">
+          <h4>📞 Phone</h4>
+          <p>Main Office: (555) 123-4567</p>
+          <p>Service Center: (555) 765-4321</p>
+        </div>
+
+        <div class="contact-card">
+          <h4>✉️ Email</h4>
+          <p>info@bestcars.com</p>
+          <p>support@bestcars.com</p>
+        </div>
+
+        <div class="contact-card">
+          <h4>🕒 Working Hours</h4>
+          <p>Mon - Fri: 9:00 AM – 6:00 PM</p>
+          <p>Sat: 10:00 AM – 4:00 PM</p>
+          <p>Sun: Closed (unless it’s a convertible kind of day 😎)</p>
+        </div>
+      </div>
+
+      <div>
+        <h3 style="text-align: center; margin-top: 40px">📍 Find Us Here</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.085556845215!2d-122.41941568468113!3d37.77492977975912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808d8ebff4b1%3A0xe4db37b6740db94e!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1635291517813!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>

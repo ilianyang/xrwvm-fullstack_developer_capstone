@@ -4,13 +4,10 @@ img{
 }
 
 .card{
-  border: rgb(103, 102, 105) 3px solid;
+  border: 1px solid rgba(0, 0, 0, .125);
   display: flex;  
   flex-direction: column;
-  margin-left:5%;
-  margin-right:5%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin: 5% auto 1% auto;
 }
 
 .row{
