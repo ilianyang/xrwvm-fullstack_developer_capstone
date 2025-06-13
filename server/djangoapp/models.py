@@ -9,7 +9,7 @@ class CarMake(models.Model):
     description = models.TextField()
 
     def __str__(self):
-        return self.name  
+        return self.name
 
 
 class CarModel(models.Model):
