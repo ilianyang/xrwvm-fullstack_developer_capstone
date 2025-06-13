@@ -43,7 +43,7 @@ const PostReview = () => {
       name: name,
       dealership: Number(id),
       review: review.trim(),
-      purchase: true,              // You can later add UI to control this if needed
+      purchase: true,
       purchase_date: date,
       car_make: make_chosen,
       car_model: model_chosen,
